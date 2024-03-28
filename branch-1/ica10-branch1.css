@@ -11,11 +11,26 @@
     animation: taskFive 3s infinite linear;
 }
 
-@keyframes taskFive{
-    0%{
+@keyframes taskFive {
+    0% {
         filter: hue-rotate(0deg);
     }
-    100%{
-        filter:hue-rotate(360deg);
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+svg{
+    animation: taskSix 10s infinite linear;
+}
+
+@keyframes taskSix{
+    from {
+            transform: rotate(0deg);
+    }
+    
+    to {
+            transform: rotate(360deg);
     }
 }
