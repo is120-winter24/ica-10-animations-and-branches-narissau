@@ -1,1 +1,36 @@
 /* TEAMMATE ONE EDITS THESE STYLES FOR YOUR TASKS */
+.box-2 {
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: linear-gradient(to right, blue, yellow);
+    transition: background-image 0.5s ease;
+}
+
+.box-2:hover {
+    animation: taskFive 3s infinite linear;
+}
+
+@keyframes taskFive {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+svg{
+    animation: taskSix 10s infinite linear;
+}
+
+@keyframes taskSix{
+    from {
+            transform: rotate(0deg);
+    }
+    
+    to {
+            transform: rotate(360deg);
+    }
+}
