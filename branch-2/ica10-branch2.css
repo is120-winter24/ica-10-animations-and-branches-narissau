@@ -1,2 +1,42 @@
 /* TEAMMATE TWO EDITS THESE STYLES FOR YOUR TASKS */
 /* Mo Johnson */
+.fa-fan.fa-solid {
+    font-size: 30px;
+    transition: all 2s linear 0s;
+}
+
+.fa-fan.fa-solid:hover {
+    font-size: 3000px;
+    transform: rotate(720deg);
+}
+
+.box-4 {
+    animation: task3 6s infinite;
+    background-color: thistle !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+@keyframes task3 {
+    0% {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
+    33% {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+
+    66% {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+
+    100% {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+}
